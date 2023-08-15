@@ -1,7 +1,7 @@
 <?php
 $telegram_id = $_POST['chatid'];
 $pesan_teks = $_POST['pesan'];
-$secret_token = '1094689986:AAEF2vRVU6ncb64TkESFn3wjDLzaaknCu44';
+$secret_token = '6381355770:AAGAgemInS1-M7mTckn7I234FqpDarxhYxE';
 sendMessage($telegram_id, $message_text, $secret_token);
 
 function sendMessage($telegram_id, $message_text, $secret_token) {
